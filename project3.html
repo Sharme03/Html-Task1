@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <!--2. Contact Us-->
+    <div style="width: 400px; float: left; border: 3px solid black;
+	padding: 0.5px; margin-bottom: 0.5px; font-size: 85%;">
+    <div id="main">
+  <form method="GET" action="#">
+
+    <div style="border: 2px solid black; font-size: 20px; text-align: center"> Contact Us </div>
+
+    <lable for="fname">First Name*:</lable>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..."/> 
+    <br/> 
+
+    <lable for="lname">Last Name*:</lable>
+    <input type="text" id="lname" name="Lastname" placeholder="Your name..."/> 
+    <br/>
+    
+    <lable for="phone">Phone Number:</lable>
+    <input type="text" name="phone" min="0" max="10"required/> 
+    <br/>
+
+    <label for="email">Email Address*</label>
+    <input type="email" name="email"/> 
+    <br/>
+
+    <label for="email">Comments*:</label>
+    <textarea name="Comments" rows="7" cols="40" style="width:100%;max-width:350px;">
+    </textarea>
+    <br/>
+
+    <input type="Submit" id="submit" name="submit" value="Submit">
+  </form> 
+    </div>
+</body>
+</html>
